@@ -1,32 +1,34 @@
-# Read Me First
-The following was discovered as part of building this project:
-
-* The original package name 'let's-play.dev' is invalid and this project uses 'let.s_play.dev' instead.
-
 # Getting Started
 
 ### Reference Documentation
 For further reference, please consider the following sections:
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/4.1.0/maven-plugin)
-* [Create an OCI image](https://docs.spring.io/spring-boot/4.1.0/maven-plugin/build-image.html)
-* [Spring Security](https://docs.spring.io/spring-boot/4.1.0/reference/web/spring-security.html)
-* [Spring Web](https://docs.spring.io/spring-boot/4.1.0/reference/web/servlet.html)
-* [Spring Data MongoDB](https://docs.spring.io/spring-boot/4.1.0/reference/data/nosql.html#data.nosql.mongodb)
-* [Validation](https://docs.spring.io/spring-boot/4.1.0/reference/io/validation.html)
+* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/3.5.16/maven-plugin)
+* [Create an OCI image](https://docs.spring.io/spring-boot/3.5.16/maven-plugin/build-image.html)
+* [Spring Web](https://docs.spring.io/spring-boot/3.5.16/reference/web/servlet.html)
+* [Spring Security](https://docs.spring.io/spring-boot/3.5.16/reference/web/spring-security.html)
+* [Validation](https://docs.spring.io/spring-boot/3.5.16/reference/io/validation.html)
+* [Spring Cloud Gateway Access Control [Enterprise]](https://techdocs.broadcom.com/us/en/vmware-tanzu/spring/spring-cloud-gateway-extensions/1-0-0/scg-extensions/access-control.html)
+* [Spring Data MongoDB](https://docs.spring.io/spring-boot/3.5.16/reference/data/nosql.html#data.nosql.mongodb)
 
 ### Guides
 The following guides illustrate how to use some features concretely:
 
-* [Securing a Web Application](https://spring.io/guides/gs/securing-web/)
-* [Spring Boot and OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2/)
-* [Authenticating a User with LDAP](https://spring.io/guides/gs/authenticating-ldap/)
 * [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
-* [Accessing Data with MongoDB](https://spring.io/guides/gs/accessing-data-mongodb/)
+* [Securing a Web Application](https://spring.io/guides/gs/securing-web/)
+* [Spring Boot and OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2/)
+* [Authenticating a User with LDAP](https://spring.io/guides/gs/authenticating-ldap/)
 * [Validation](https://spring.io/guides/gs/validating-form-input/)
+* [Accessing Data with MongoDB](https://spring.io/guides/gs/accessing-data-mongodb/)
+
+## VMware Tanzu Spring Enterprise Extensions
+
+You have selected to add [Tanzu Spring](https://www.vmware.com/products/app-platform/tanzu-spring) enterprise extensions to your project.
+In order to use these enterprise extensions you must have authorized [access to the Spring Enterprise Repository](https://techdocs.broadcom.com/us/en/vmware-tanzu/spring/tanzu-spring/commercial/spring-tanzu/guide-artifact-repository-administrators.html) artifacts with an entitlement to Tanzu Spring.
+To learn more about what is included with Tanzu Spring entitlement, check out [enterprise.spring.io](https://enterprise.spring.io/) for more information.
 
 ### Maven Parent overrides
 

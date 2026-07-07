@@ -1,13 +1,13 @@
-package let.s_play.dev;
+package com.adraoui.webstore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DevApplication {
+public class WebstoreApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DevApplication.class, args);
+		SpringApplication.run(WebstoreApplication.class, args);
 	}
 
 }
